@@ -8,7 +8,7 @@ RUN \
     apt install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential
 
 # Install Pico SDK
-Run \
+RUN \
     mkdir -p /project/src/ && \
     cd /project/ && \
     git clone https://github.com/raspberrypi/pico-sdk.git --branch master && \
